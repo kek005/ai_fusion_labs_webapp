@@ -6,7 +6,7 @@
   }
   body {
     font-family: Arial, sans-serif;
-    background-color: #fff; /* Change to #E7EC86 for yellow background */
+    background-color: #E7EC86; /* Set the background color to yellow */
   }
   header {
     background-color: #E7EC86; /* Match the color in the image */
@@ -67,18 +67,17 @@
     margin-bottom: 20px;
   }
   .slideshow-container {
-    max-width: 1000px;
+    width: 100%;
     position: relative;
-    margin: auto;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #E7EC86; /* Match the background color */
+    padding: 0; /* Remove padding */
   }
   .mySlides {
     display: none;
   }
   img {
     width: 100%;
-    border-radius: 10px;
+    height: auto;
   }
   .fade {
     animation-name: fade;
@@ -91,5 +90,13 @@
     to {
       opacity: 1;
     }
+  }
+  section {
+    padding: 50px 20px;
+    margin: 0; /* Remove margin to avoid white space */
+  }
+  #about, #contact {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
