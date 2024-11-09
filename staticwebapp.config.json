@@ -1,0 +1,25 @@
+{
+    "networking": {
+      "allowedIpRanges": ["AzureFrontDoor.Backend"]
+    },
+    "forwardingGateway": {
+      "requiredHeaders": {
+        "X-Azure-FDID": "914233b9-c518-4036-a762-fb102732ed38"
+      },
+      "allowedForwardedHosts": [
+        "webUsingBlobUrl-hzhzgebdaydrbbh4.z03.azurefd.net",
+        "aifusionlabs.io",
+        "www.aifusionlabs.io"
+      ]
+    },
+    "routes": [
+      {
+        "route": "/members",
+        "allowedRoles": ["authenticated", "members"],
+        "headers": {
+          "Cache-Control": "no-store"
+        }
+      }
+    ]
+  }
+  
