@@ -24,8 +24,6 @@ To run this project locally:
 
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/kek005/ai_fusion_labs_webapp.git
 Open the index.html file in your browser to view the site locally.
 
