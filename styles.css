@@ -99,4 +99,37 @@
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
+
+
+.mvp-section {
+    background-color: #E7EC86;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.mvp-section h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.mvp-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.mvp-button {
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.mvp-button:hover {
+    background-color: #333;
+}
   
